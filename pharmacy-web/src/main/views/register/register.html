@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<title>注册</title>
+		<link href="../../../common/css/login.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="login">
+			<div class="message">医院药房管理系统-用户注册</div>
+			<div id="darkbannerwrap"></div>
+
+			<form id="formRegister" method="post" action="javascript:void(0);">
+				<input type="text" name="username" placeholder="用户名" required="">
+				<hr class="hr15">
+				<input type="password" name="psw" placeholder="密码" required="">
+				<hr class="hr15">
+				<input type="text" name="dept" placeholder="部门" required="">
+				<hr class="hr15">
+				<input type="text" name="status" placeholder="级别" required="">
+				<hr class="hr15">
+				<input type="submit" value="注册" style="width:100%;">
+				<hr class="hr20">
+					<input type="submit" value="取消" style="width:100%;">
+				<hr class="hr20">
+				<!-- 帮助 <a onClick="alert('请联系管理员')">忘记密码</a> -->
+			</form>
+
+		</div>
+
+		<div class="copyright">© 2017 by 医院药房管理</a>
+		</div>
+		<script src="../../../common/js/jquery.min.js"></script>
+		<script src="../../../common/js/jquery-serialize.js"></script>
+		<script src="register.js"></script>
+	</body>
+
+</html>
