@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>查看类别信息</title>
+		<link rel="stylesheet" href="../../../common/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../../common/css/bootstrap-table.css" />
+		<style>
+			img{
+				height: 80px;
+				width: 1145px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="form-group">
+				<img src="../../../common/img/top.png" class="img-thumbnail" alt="top" />
+			</div>
+			<div class="form-group">
+				<ul class="nav nav-tabs">
+					<li role="presentation" class="active">
+						<a href="#">销售统计</a>
+					</li>
+					<li role="presentation">
+						<a href="#"><span id="viewByHistory">查看明细</span></a>
+					</li>
+					<li role="presentation" class="pull-right">
+						<a href="#"><span id="returnMain">返回首页</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped table-hover table-condensed" id="table">
+					<thead>
+						<tr>
+							<th>药品名称</th>
+							<th>售价</th>
+							<th>数量</th>
+							<th>金额</th>
+							<th>销售时间</th>
+						</tr>
+					</thead>
+
+					<tbody id="tbody">
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<script src="../../../common/js/jquery.min.js"></script>
+		<script src="../../../common/js/jquery-serialize.js"></script>
+		<script type="text/javascript" src="../../../common/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../../common/js/bootstrap-table.js" ></script>
+		<script type="text/javascript" src="../../../common/css/tableExport/bootstrap-table-export.js" ></script>
+		<script type="text/javascript" src="../../../common/css/tableExport/jquery.base64.js" ></script>
+		<script type="text/javascript" src="../../../common/css/tableExport/tableExport.js" ></script>
+		<script type="text/javascript" src="sell-details.js"></script>
+	</body>
+
+</html>
